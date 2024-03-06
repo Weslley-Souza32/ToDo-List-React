@@ -1,0 +1,51 @@
+.boards{
+  display: flex;
+  margin-top: 2rem;
+  gap: 10px;
+}
+.board{
+  background: #CCC;
+  border: 1px solid #FD951F11;
+  border-radius: 4px;
+  margin: 0 1rem;
+}
+.board h3{
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: #FFF;
+  margin: -5px 0 -30px 0;
+}
+
+.dropzone{
+  padding: 1rem;
+  min-width: 300px;
+  min-height: 200px;
+}
+
+.card{
+  padding: 5px;
+  box-shadow: 0 2px 2px -1px #FD951FCC;
+  width: 300px;
+  margin: 1.7rem 0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: #DCDCDC;
+  text-align: start;
+}
+
+.status{
+  width: 30px;
+  height: 8px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+.status.green{
+  background: #23D2AC;
+}
+.status.blue{
+  background: #33ADFF;
+}
+.status.red{
+  background: rgb(255, 0, 0)
+}
